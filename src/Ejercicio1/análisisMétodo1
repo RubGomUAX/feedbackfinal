@@ -1,0 +1,15 @@
+Análisis:
+Case 0: Solo devuelve un valor → O(1)
+
+Case 1: Bucle con i *= 2 --> se ejecuta log2(x) veces--> O(log x)
+
+Case 2: El bucle while(i > 1) no modifica i dentro del bucle por lo que es un bucle infinito.
+
+
+Complejidad:
+
+Case 0: O(1) Termina en tiempo constante.
+
+Case 1: O(log x) Complejidad logarítmica.
+
+Case 2: bucle infinito si x > 1

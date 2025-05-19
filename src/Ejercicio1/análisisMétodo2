@@ -1,0 +1,12 @@
+Análisis:
+Bucle externo: i de 1 a x → O(x)
+
+Bucle interno: j *= 2    O(log x)
+
+Total del doble bucle: O(x · log x)
+
+El resto de operaciones fuera del bucle son constantes--> O(1)
+
+Complejidad:
+
+O(x · log x) Doble bucel lineal y logarítmico.
