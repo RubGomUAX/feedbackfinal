@@ -1,0 +1,21 @@
+¿A qué se llama pivote y por qué es tan importante una
+elección apropiada del mismo?
+
+El pivote es el elemento para dividir el array en dos partes:
+
+A la izquierda los elementos menores que el pivote y a la derecha los mayores o iguales.
+
+Si el pivote divide bien el array (por ejemplo en dos partes casi iguales) el algoritmo ordena muy rápido,
+su tiempo es O(n log n) que es muy eficiente.
+
+Pero si el pivote se elige mal (por ejemplo siempre es el número más pequeño o más grande) entonces casi no divide
+el array y el trabajo se repite muchas veces sin avanzar mucho. El tiempo empeoraría mucho y
+se vuelve O(n²) que es mucho más lento.
+
+Ejemplo:
+Array ordenado [1, 2, 3, 4, 5, 6]
+
+Si siempre elegimos como pivote el primer número:
+
+Se elige 1 que es el menor y el resto del array se queda igual y hay que seguir ordenando caso todo otra vez. Esto
+ocurre una y otra vez y hace que el tiempo de ejecución se dispare.

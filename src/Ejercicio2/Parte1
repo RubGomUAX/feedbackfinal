@@ -1,0 +1,23 @@
+La secuencia inical es:
+1 0 6 4 8 2 4 7 7
+
+Fases del array:
+
+Fase 1 (insertar 0): 0 1 6 4 8 2 4 7 7
+
+Fase 2 (insertar 6): 0 1 6 4 8 2 4 7 7
+
+Fase 3 (insertar 4): 0 1 4 6 8 2 4 7 7
+
+Fase 4 (insertar 8): 0 1 4 6 8 2 4 7 7
+
+Fase 5 (insertar 2): 0 1 2 4 6 8 4 7 7
+
+Fase 6 (insertar 4): 0 1 2 4 4 6 8 7 7
+
+Fase 7 (insertar 7): 0 1 2 4 4 6 7 8 7
+
+Fase 8 (insertar 7): 0 1 2 4 4 6 7 7 8
+
+Resultado ya ordenado:
+0 1 2 4 4 6 7 7 8
