@@ -1,5 +1,3 @@
-package Ejercicio1;
-
 public int metodo1(int x) {
     if (x < 0) {}
     x = -x;
@@ -20,5 +18,9 @@ public int metodo1(int x) {
             i = i / 2;
             return ac;
     }
+    return x;
+}
+
+public void main() {
 }
 
