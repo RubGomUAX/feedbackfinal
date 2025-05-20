@@ -6,17 +6,17 @@ import java.util.TreeSet;
 class Libro implements Comparable<Libro> {
     String autor;
     String numRegistro;
-    int anoEdicion;
+    int añoEdicion;
 
     public Libro(String autor, String numRegistro, int anoEdicion) {
         this.autor = autor;
         this.numRegistro = numRegistro;
-        this.anoEdicion = anoEdicion;
+        this.añoEdicion = anoEdicion;
     }
 
     @Override
     public int compareTo(Libro otro) {
-        int resultado = Integer.compare(this.anoEdicion, otro.anoEdicion);
+        int resultado = Integer.compare(this.añoEdicion, otro.añoEdicion);
         if (resultado != 0) {
             return resultado;
         }
@@ -28,18 +28,18 @@ class Libro implements Comparable<Libro> {
         if (this == o) return true;
         if (!(o instanceof Libro)) return false;
         Libro libro = (Libro) o;
-        return anoEdicion == libro.anoEdicion &&
+        return añoEdicion == libro.añoEdicion &&
                 Objects.equals(numRegistro, libro.numRegistro);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(anoEdicion, numRegistro);
+        return Objects.hash(añoEdicion, numRegistro);
     }
 
     @Override
     public String toString() {
-        return autor + " - " + numRegistro + " - " + anoEdicion;
+        return autor + " - " + numRegistro + " - " + añoEdicion;
     }
 }
 

@@ -5,17 +5,17 @@ import java.util.ArrayList;
 class Libro {
     String autor;
     String numRegistro; // De la forma 1234ABC
-    int anoEdicion;
+    int añoEdicion;
 
     public Libro(String autor, String numRegistro, int anoEdicion) {
         this.autor = autor;
         this.numRegistro = numRegistro;
-        this.anoEdicion = anoEdicion;
+        this.añoEdicion = anoEdicion;
     }
 
     @Override
     public String toString() {
-        return autor + " - " + numRegistro + " - " + anoEdicion;
+        return autor + " - " + numRegistro + " - " + añoEdicion;
     }
 }
 
