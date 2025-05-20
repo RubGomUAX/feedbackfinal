@@ -1,0 +1,13 @@
+b) ¿Qué método de ordenación es preferible y porqué desde el punto de vista de
+complejidad algorítmica: Inserción directa, Selección directa, Intercambio
+directo, si el tiempo de copia se considera despreciable con respecto al tiempo
+de comparación?.
+
+
+Comparativa rápida:
+Método	                  Comparaciones	                        Copias
+Inserción directa	      O(n2) en el peor caso	                Pocas (cuando ya está ordenado)
+Selección directa	      O(n2) siempre	                        Mínimo de intercambios (n - 1)
+Intercambio directo       O(n2)                             	Muchas operaciones
+
+Selección directa es preferible si las copias no tienen alto coste y las comparaciones sí lo son.
